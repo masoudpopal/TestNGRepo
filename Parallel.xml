@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+           <listeners>
+               <listener class-name="c.Syntax.class03.Listeners"/>
+           </listeners>
+
+
+    <test name="Parallel Test" parallel="methods" thread-count="3">
+            <classes>
+            <class name="c.Syntax.class03.ParallelTestTester">
+            </class>
+                <class name="c.Syntax.class02.SoftAssertion2">
+
+                </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/masou/IdeaProjects/TestNG">
+        <classes>
+            <class name="c.Syntax.class03.DataProviderDemo2">
+            </class>
+        </classes>
+    </test>
+</suite>
